@@ -1,0 +1,109 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(129, 49, 89);
+  height: 4em;
+  color: rgb(240, 184, 212);
+}
+
+.selectZone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.bigbtn {
+  height: 20vh;
+  max-width: 20em;
+  background-color: white;
+  border-color: purple;
+  border-radius: 10px;
+  font-size: 50px;
+  margin: 20px;
+  font-family:sans-serif;
+  color :rgb(129, 49, 89);
+}
+
+.bigbtn:hover {
+  box-shadow:300px 0 0 0 rgba(247, 217, 232, 0.5) inset;
+}
+
+.buttonZone {
+  background-color: rgb(252, 236, 238);
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoSection {  
+  border: solid;
+  border-width: 1px;
+  border-color: purple;
+  margin-top: 5%;
+  width: 20em;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.btn {
+  margin: 30px;
+  height: 3em;
+  background-color: white;
+  border-color: purple;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  box-shadow:200px 0 0 0 rgba(247, 217, 232, 0.5) inset;
+}
+
+.dDay {
+  color: plum;
+  font-size: 15px;
+}
+
+.disPZone {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.keys {
+  font-weight: bold;
+  width: 9em;
+  height: 3rem;
+}
+.values {
+  color: purple;
+  font-weight: bold;
+  font-size: 22px;
+  height: 3rem;
+}
+
+.w1li {
+  list-style: none;
+}
+
+.w2li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: pink;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
