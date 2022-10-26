@@ -40,7 +40,6 @@ export default function WeatherDay (probs) {
          <div className="infoSection"> <li className='w1li'> <span className='dDay'>{d}일후 </span><br/>
           오후 날씨예보 <br/>
         <span className='values'>{items[3]}</span></li></div>
-
     </div>
 
     <div className='footer'><button className='btn' onClick={() => handleClick('홈')}>홈으로 돌아가기</button></div>

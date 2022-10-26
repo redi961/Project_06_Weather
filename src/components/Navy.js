@@ -7,8 +7,8 @@ export default function Navy () {
 
   const handleClick = (k) => {
     const url = {
-      '단기' : '/WeatherMain',
-      '중기' : '/weatherMain2'
+      '단기' : '/WeatherMain2',
+      '중기' : '/WeatherMain'
     }
     navigator(url[k]);
   }
